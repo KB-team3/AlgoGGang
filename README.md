@@ -21,7 +21,18 @@
 | 1~2문제 | 1️⃣~2️⃣ |
 | 0문제 | ❌ <br/>(사유) |
 
-<br>
+</br>
+
+
+
+## 📋 Commit
+> BaekJoon : BOJ  
+Programmers : PRO  
+SW Expert Academy : SWEA  
+다른 문제 사이트는 ETC로 표기
+> 
+- GitHub commit 양식 : [Platform | Language] 문제 번호
+- File 양식 : 이름 / week_N / B00000_문제제목 
 
 ## 📍 Commit Message Convention
 - ➕ [ADD] : 문제 풀이 파일이나 부수적인 코드 추가
@@ -30,7 +41,7 @@
 - ✏️ [CORRECT] : 문법 오류 해결, 타입 변경, 이름 변경 등의 작은 수정
 - 📄 [DOCS] : README 등의 문서 개정
 - 🚚 [MOVE] : 프로젝트 파일 및 코드 이동
-- 🪧 [RENAME] : 파일 이름 변경
+- 🔁 [RENAME] : 파일 이름 변경
 - 🔀 [MERGE] : 다른 브랜치와의 충돌 해결 후 Merge
 - ♻️ [REFACTOR] : 전면 수정
 <br></br>
