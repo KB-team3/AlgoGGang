@@ -1,5 +1,5 @@
 # AlgoGGang
-![AlgoGGang](algoggang.jpg)
+![AlgoGGang](./img/algoggang.jpg)
 # 📝 Rules
 - 매주 월요일 오전 9시 59분까지 3문제 풀이하여 업로드하기!</br>
 - 안 풀어오면 커피 사기☕</br>
