@@ -1,5 +1,6 @@
 # AlgoGGang
-![AlgoGGang](./img/algoggang.jpg)
+![algoggang](https://user-images.githubusercontent.com/78344310/232940078-f967326a-118f-48ff-b6b3-53d01d27d7ef.jpg)
+
 # 📝 Rules
 - 매주 월요일 오전 9시 59분까지 3문제 풀이하여 업로드하기!</br>
 - 안 풀어오면 커피 사기☕</br>
