@@ -7,19 +7,20 @@
 <br>
 
 ## 📍 Progress Record
-|  | 길민지 | 이우엽 | 윤상우 | 신선영 | 서지수 |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| GitHub | [rninji](https://github.com/rninji) | [leewooyup](https://github.com/leewooyup) | [Awarduuu](https://github.com/Awarduuu) | [drsuneamer](https://github.com/drsuneamer) | [seojisoosoo](https://github.com/seojisoosoo)
-| Language | <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"> | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> | <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"> | <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"> |
-| Week 01</br>(23.04.24.) | ❌ | ❌ | ❌ | ❌ | ❌
-| Week 02</br>(22.05.01.) | ❌ | ❌ | ❌ | ❌ | ❌
+|  | 문제 | 길민지 | 이우엽 | 윤상우 | 신선영 | 서지수 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| GitHub | | [rninji](https://github.com/rninji) | [leewooyup](https://github.com/leewooyup) | [Awarduuu](https://github.com/Awarduuu) | [drsuneamer](https://github.com/drsuneamer) | [seojisoosoo](https://github.com/seojisoosoo)
+| Language | | <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"> | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> | <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"> | <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"> |
+| Week 01</br>(23.04.24.) |[B15686](https://www.acmicpc.net/problem/15686) | ❌ | ❌ | ❌ | ❌ | ❌
+|  |[B2559](https://www.acmicpc.net/problem/2559) | ❌ | ❌ | ❌ | ❌ | ❌
+| Week 02</br>(22.05.01.) | | ❌ | ❌ | ❌ | ❌ | ❌
 
-
-| 업로드 횟수 | 표기 |
+✅ ❌ <br/>(사유)
+| 해결 여부 | 표기 |
 | :---: | :---: |
-| 3문제 이상 | ✅ |
-| 1~2문제 | 1️⃣~2️⃣ |
-| 0문제 | ❌ <br/>(사유) |
+| 성공 | ✅ |
+| 미해결 | ❔ |
+| 시도 X | ❌ <br/>(사유) |
 
 </br>
 
