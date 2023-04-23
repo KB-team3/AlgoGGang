@@ -12,8 +12,8 @@
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | GitHub | | [rninji](https://github.com/rninji) | [leewooyup](https://github.com/leewooyup) | [Awarduuu](https://github.com/Awarduuu) | [drsuneamer](https://github.com/drsuneamer) | [seojisoosoo](https://github.com/seojisoosoo)
 | Language | | <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"> | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> | <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"> | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> |
-| Week 01</br>(23.04.24.) |[B15686](https://www.acmicpc.net/problem/15686) | ❌ | ❌ | ✅ | ❌ | ❌
-|  |[B2559](https://www.acmicpc.net/problem/2559) | ❌ | ❌ | ✅ | ❌ | ❌
+| Week 01</br>(23.04.24.) |[B15686](https://www.acmicpc.net/problem/15686) | ❌ | ❌ | ✅ | ✅ | ❌
+|  |[B2559](https://www.acmicpc.net/problem/2559) | ❌ | ❌ | ✅ | ✅ | ❌
 | Week 02</br>(22.05.01.) | | ❌ | ❌ | ❌ | ❌ | ❌
 
 
