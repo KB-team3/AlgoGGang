@@ -16,7 +16,7 @@
 |  |[B2559](https://www.acmicpc.net/problem/2559) | ✅ | ❌ | ✅ | ✅ | ✅ 
 | Week 02</br>(22.05.01.) | [B17298](https://www.acmicpc.net/problem/17298) | ❌ | ❌ | ❌ | ❌ | ❌
 |  | [B17626](https://www.acmicpc.net/problem/17626) | ❌ | ❌ | ❌ | ❌ | ❌
-|  | [B16948](https://www.acmicpc.net/problem/16948) | ✅ | ❌ | ❌ | ❌ | ❌
+|  | [B16948](https://www.acmicpc.net/problem/16948) | ✅ | ❌ | ❌ | ✅ | ❌
 
 
 | 해결 여부 | 표기 |
