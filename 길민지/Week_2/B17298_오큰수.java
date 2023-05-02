@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
-public class B17298_¿ÀÅ«¼ö {
+public class B17298_ì˜¤í°ìˆ˜ {
 	static int N;
 	static int result[];
 	static Stack<Integer[]> stack;
@@ -14,27 +14,27 @@ public class B17298_¿ÀÅ«¼ö {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(bf.readLine());
 		
-		// Ã¹Â°ÁÙ ÀÔ·Â
+		// ì²«ì§¸ì¤„ ì…ë ¥
 		N = Integer.parseInt(st.nextToken());
 		
-		// ÃÊ±âÈ­
+		// ì´ˆê¸°í™”
 		result = new int[N];
 		stack = new Stack<Integer[]>();
 		
-		// ¼ö¿­ ÀÔ·Â
+		// ìˆ˜ì—´ ì…ë ¥
 		st = new StringTokenizer(bf.readLine());
 		for (int i=0; i<N; i++) {
 			int num = Integer.parseInt(st.nextToken());
 			result[i] = -1;
 			
 			while(!stack.isEmpty() && stack.peek()[1]<num) { 
-				// ½ºÅÃ¿¡ ÇöÀç °ªº¸´Ù ÀÛÀº °ªÀÌ ÀÖ´Ù¸é ±× ÀÚ¸®¿¡ ÇöÀç °ª ÀúÀå
+				// ìŠ¤íƒì— í˜„ì¬ ê°’ë³´ë‹¤ ì‘ì€ ê°’ì´ ìˆë‹¤ë©´ ê·¸ ìë¦¬ì— í˜„ì¬ ê°’ ì €ì¥
 				result[stack.pop()[0]] = num;
 			}
-			stack.add(new Integer[] {i, num}); // ÇöÀç ÀÎµ¦½º, °ª push
+			stack.add(new Integer[] {i, num}); // í˜„ì¬ ì¸ë±ìŠ¤, ê°’ push
 		}
 		
-		// Ãâ·Â
+		// ì¶œë ¥
 		StringBuilder sb = new StringBuilder();
 		for(int i : result) sb.append(i).append(" ");
 		System.out.println(sb);
