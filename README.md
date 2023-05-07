@@ -17,9 +17,9 @@
 | Week 02</br>(22.05.01.) | [B17298](https://www.acmicpc.net/problem/17298) | ✅ | ❔ | ✅ | ✅ | ✅
 |  | [B17626](https://www.acmicpc.net/problem/17626) | ✅ | ❔ | ✅ | ✅ | ✅
 |  | [B16948](https://www.acmicpc.net/problem/16948) | ✅ | ❔ | ✅ | ✅ | ✅
-| Week 03</br>(22.05.08.) | [B11052](https://www.acmicpc.net/problem/11052) | ✅ | ❔ | ❌ | ✅ | ❌
-|  | [B1941](https://www.acmicpc.net/problem/1941) |  ❌ | ❔ | ❌ | ☑️ | ❌
-|  | [B15565](https://www.acmicpc.net/problem/15565) |  ✅ | ❔ | ❌ | ✅ | ❌
+| Week 03</br>(22.05.08.) | [B11052](https://www.acmicpc.net/problem/11052) | ✅ | ❔ | ❌ | ✅ | ❔
+|  | [B1941](https://www.acmicpc.net/problem/1941) |  ❌ | ❔ | ❌ | ☑️ | ❔
+|  | [B15565](https://www.acmicpc.net/problem/15565) |  ✅ | ❔ | ❌ | ✅ | ❔
 
 
 
