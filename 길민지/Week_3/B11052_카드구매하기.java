@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class B11052_Ä«µå±¸¸ÅÇÏ±â {
+public class B11052_ì¹´ë“œêµ¬ë§¤í•˜ê¸° {
 	static int N;
 	static int P[];
 	static int MAX[];
@@ -12,7 +12,7 @@ public class B11052_Ä«µå±¸¸ÅÇÏ±â {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(bf.readLine());
 		
-		// ÀÔ·Â ¹× ÃÊ±âÈ­
+		// ì…ë ¥ ë° ì´ˆê¸°í™”
 		N = Integer.parseInt(st.nextToken());
 		P = new int [N+1];
 		MAX = new int [N+1];
@@ -22,19 +22,19 @@ public class B11052_Ä«µå±¸¸ÅÇÏ±â {
 			P[i] = Integer.parseInt(st.nextToken());
 		}
 		
-		// MAX[i]´Â iÀå °í¸¦ ¶§ °¡Àå ºñ½Ñ °¡°İÀ» ÀúÀåÇÏ´Â ¹è¿­
+		// MAX[i]ëŠ” iì¥ ê³ ë¥¼ ë•Œ ê°€ì¥ ë¹„ì‹¼ ê°€ê²©ì„ ì €ì¥í•˜ëŠ” ë°°ì—´
 		MAX[1] = P[1];
 		
-		for (int i=2; i<=N; i++) { // MAX[2] ~ MAX[N] ±¸ÇÏ±â
+		for (int i=2; i<=N; i++) { // MAX[2] ~ MAX[N] êµ¬í•˜ê¸°
 			int max = 0;
-			for (int j=1; j<=i/2; j++) { // i/2 ÀÌÈÄºÎÅÍ´Â Áßº¹À¸·Î ±¸ÇÏ´Â°Å´Ï±î ¾È µ¹¾Æµµ µÊ
+			for (int j=1; j<=i/2; j++) { // i/2 ì´í›„ë¶€í„°ëŠ” ì¤‘ë³µìœ¼ë¡œ êµ¬í•˜ëŠ”ê±°ë‹ˆê¹Œ ì•ˆ ëŒì•„ë„ ë¨
 				max = Math.max(max, MAX[j] + MAX[i-j]);
 			}
 			max = Math.max(max, P[i]);
 			MAX[i] = max;
 		}
 		
-		// Ãâ·Â
+		// ì¶œë ¥
 		System.out.println(MAX[N]);
 	}
 }
