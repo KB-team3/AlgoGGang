@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 
-public class B15565_±Í¿©¿î¶óÀÌ¾ğ {
+public class B15565_ê·€ì—¬ìš´ë¼ì´ì–¸ {
 	static int N, K;
 	static List<Integer> lion;
 
@@ -21,21 +21,21 @@ public class B15565_±Í¿©¿î¶óÀÌ¾ğ {
 		st = new StringTokenizer(bf.readLine());
 		for (int i=0; i<N; i++) {
 			int num = Integer.parseInt(st.nextToken());
-			if (num==1) lion.add(i); // ¶óÀÌ¾ğ ÀÎÇüÀÎ °æ¿ì ÀÎµ¦½º¸¦ ÀúÀå
+			if (num==1) lion.add(i); // ë¼ì´ì–¸ ì¸í˜•ì¸ ê²½ìš° ì¸ë±ìŠ¤ë¥¼ ì €ì¥
 		}
 		
-		if(lion.isEmpty()||lion.size()<K-1) { // ¶óÀÌ¾ğÀÌ ¾Æ¿¹ ¾ø°Å³ª, ±¸ÇÏ·Á´Â ÀÎÇü¼öº¸´Ù ÀÛÀº °æ¿ì
+		if(lion.isEmpty()||lion.size()<K-1) { // ë¼ì´ì–¸ì´ ì•„ì˜ˆ ì—†ê±°ë‚˜, êµ¬í•˜ë ¤ëŠ” ì¸í˜•ìˆ˜ë³´ë‹¤ ì‘ì€ ê²½ìš°
 			System.out.println(-1);
 			return;
 		}
 		
-		int min = Integer.MAX_VALUE; // ÃÖ¼Ò ÁıÇÕ °³¼ö
+		int min = Integer.MAX_VALUE; // ìµœì†Œ ì§‘í•© ê°œìˆ˜
 		for (int i=0; i<lion.size()-K+1; i++) {
-			int size = lion.get(i+K-1) - lion.get(i) + 1; // Ã¹¹øÂ° ¶óÀÌ¾ğºÎÅÍ µ¹¸é¼­ K¹øÂ° ÀÎÇü°úÀÇ °Å¸®Â÷ÀÌ¸¦ ±¸ÇÔ
-			min = (min<size)?min:size; // ÃÖ¼Ò°ª °»½Å
+			int size = lion.get(i+K-1) - lion.get(i) + 1; // ì²«ë²ˆì§¸ ë¼ì´ì–¸ë¶€í„° ëŒë©´ì„œ Kë²ˆì§¸ ì¸í˜•ê³¼ì˜ ê±°ë¦¬ì°¨ì´ë¥¼ êµ¬í•¨
+			min = (min<size)?min:size; // ìµœì†Œê°’ ê°±ì‹ 
 		}
 		
-		// Ãâ·Â
+		// ì¶œë ¥
 		System.out.println(min);
 	}
 
