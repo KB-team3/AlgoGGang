@@ -1,8 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
 
-import java.util.*;
-
 class Solution {
     static int [] dp;
 	static List<Integer>[] list;
