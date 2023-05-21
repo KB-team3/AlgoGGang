@@ -1,0 +1,124 @@
+import java.util.*;
+import java.io.*;
+
+class Main {
+  static int N;
+  static int N2; // N제곱
+  static int[][] like; // 좋아하는 학생 배열
+  static int[][] seat; // 자리 배열
+  static int result; // 만족도 합계
+  static int dx[] = { -1, 1, 0, 0 };
+  static int dy[] = { 0, 0, -1, 1 };
+
+  // 범위 확인
+  public static boolean chkValid(int x, int y) {
+    if (x < 1 || y < 1 || x > N || y > N)
+      return false;
+    return true;
+  }
+
+  // 만족도 조사
+  public static int findLike(int num, int[] like){
+    int l = 0; // 인접 좋아하는 학생 수 
+    int now_x = 0;
+    int now_y = 0;
+
+    for (int i=1; i<N+1; i++){
+      for (int j=1; j<N+1; j++){ // 내 위치 찾기
+        if (seat[i][j]==num){
+          now_x = i;
+          now_y = j;
+        }
+      }
+    }
+    for(int k=0; k<4; k++){ // 인접 4방 탐색
+      int next_x = now_x + dx[k];
+      int next_y = now_y + dy[k];
+      if (!chkValid(next_x, next_y))continue; // 범위 밖이면 X
+      for (int n : like)
+        if (seat[next_x][next_y] == n) { // 인접 자리가 좋아하는 학생이라면
+          l++;
+          break;
+      }
+    }
+    return (l==0)?0:(int)Math.pow(10, l-1); // 만족도 반환
+  }
+
+  // 자리 정하기
+  public static void findSeat(int[] like) {
+    int num = like[0]; // 자리 구할 학생
+    int[] l = new int[] { -1, -1 }; // [만족도, 인접 빈 자리 수] 초기화
+    int x = 1; // 행
+    int y = 1; // 열
+
+    for (int i = 1; i < N + 1; i++) {
+      for (int j = 1; j < N + 1; j++) {
+        if (seat[i][j] != 0) continue; // 빈 자리가 아니라면 확인 X
+
+        int temp[] = new int[] { 0, 0 }; // 현재 위치에서 인접한 [좋아하는 학생 수, 빈 자리]
+        for (int k = 0; k < 4; k++) { // 인접 4방 탐색
+          int next_x = i + dx[k];
+          int next_y = j + dy[k];
+
+          if (!chkValid(next_x, next_y)) continue; // 범위 밖이면 X
+          
+          if (seat[next_x][next_y] == 0){ // 인접 자리가 빈 자리라면
+            temp[1]++; 
+            continue;
+          }
+          for (int n : like) {
+            if (seat[next_x][next_y] == n) { // 인접 자리가 좋아하는 학생이라면
+              temp[0]++;
+              break;
+            }
+          }
+        }
+        if (temp[0] > l[0]) { // 인접한 좋아하는 학생 수가 기존 만족도보다 많다면 자리 갱신
+          l[0] = temp[0];
+          l[1] = temp[1];
+          x = i;
+          y = j;
+        } else if (temp[0] == l[0] && temp[1] > l[1]) { // 좋아하는 학생 수는 같지만 인접한 빈 자리가 더 많다면 자리 갱신
+          x = i;
+          y = j;
+          l[1] = temp[1];
+        }
+      }
+    }
+
+    seat[x][y] = num; // 이 자리에 앉기
+  }
+
+  // 자리 정하고 만족도 합계 구하기
+  public static void find() {
+    for (int i = 0; i < N2; i++) {
+      findSeat(like[i]); // 각 학생 자리 정하기
+    }
+
+    for (int i=0; i<N2; i++){
+      result+=findLike(like[i][0], like[i]); // 만족도 합계 구하기
+    }
+  }
+
+  public static void main(String[] args) throws Exception {
+    BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+    StringTokenizer st = new StringTokenizer(bf.readLine());
+
+    // 입력 및 초기화
+    N = Integer.parseInt(st.nextToken());
+    N2 = (int) Math.pow(N, 2);
+    like = new int[N2][5];
+    seat = new int[N + 1][N + 1];
+    for (int i = 0; i < N2; i++) {
+      st = new StringTokenizer(bf.readLine());
+      for (int j = 0; j < 5; j++) {
+        like[i][j] = Integer.parseInt(st.nextToken());
+      }
+    }
+
+		// 자리 정하고 만족도 구하기
+    find();
+
+    System.out.println(result);
+  }
+}
