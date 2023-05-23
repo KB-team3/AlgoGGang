@@ -1,0 +1,36 @@
+import java.util.*;
+class Solution {
+    static int[] s1 = new int[]{1,2,3,4,5};
+    static int[] s2 = new int[]{2,1,2,3,2,4,2,5};
+    static int[] s3 = new int[]{3,3,1,1,2,2,4,4,5,5};
+
+    static int[] a;
+
+    public int[] solution(int[] answers) {
+        a = new int[3];
+
+        for (int i=0; i<answers.length; i++){
+            if (s1[i%5] == answers[i]) a[0]++;
+            if (s2[i%8] == answers[i]) a[1]++;
+            if (s3[i%10] == answers[i]) a[2]++;
+        }
+
+        int max = 0; // 최대 점수 구하기
+        for (int i=0; i<3; i++){
+            max = (max>a[i])?max:a[i];
+        }
+        int cnt = 0; // 최대 점수 낸 사람 수 구하기
+        for (int i=0; i<3; i++){
+            if(max==a[i]) cnt++;
+        }
+        int[] answer = new int[cnt];
+        int temp = 0; 
+        for (int i=0; i<3; i++){
+            if(max==a[i]) {
+                answer[temp] = i+1; // 최대 점수 낸 사람 추가
+                temp++;
+            }
+        }
+        return answer;
+    }
+}
