@@ -17,13 +17,13 @@ class Main {
       score[i] = sc.nextInt();
     }
 
-    // 계단이 1개
+    // 계단이 1개인 경우
     if(N==1) {
       System.out.println(score[1]);
       return;
     }
 
-    // 1층, 2층 세팅
+    // 1층 세팅
     dp[1][0] = score[1];
     dp[1][1] = score[1];
 
