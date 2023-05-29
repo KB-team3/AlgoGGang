@@ -17,22 +17,17 @@ class Main {
       score[i] = sc.nextInt();
     }
 
-    // 계단이 1개, 2개, 3개인 경우
+    // 계단이 1개
     if(N==1) {
       System.out.println(score[1]);
-      return;
-    }
-    else if (N==2){
-      System.out.println(score[1] + score[2]);
       return;
     }
 
     // 1층, 2층 세팅
     dp[1][0] = score[1];
-    dp[2][0] = score[1] + score[2];
-    dp[2][1] = score[2];
+    dp[1][1] = score[1];
 
-    for (int i = 3; i < N + 1; i++) {
+    for (int i = 2; i < N + 1; i++) {
       // 1층 아래에서 올라온 경우
       dp[i][0] = Math.max(dp[i][0], dp[i - 1][1] + score[i]);
 
