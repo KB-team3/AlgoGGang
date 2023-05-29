@@ -21,10 +21,10 @@
 |  | [B1941](https://www.acmicpc.net/problem/1941) |  ❔ | ❔ | ☑️ | ☑️ | ❔| - |
 |  | [B15565](https://www.acmicpc.net/problem/15565) |  ✅ | ❔ | ✅ | ✅ | ❔| - |
 | Week 04</br>(22.05.15.) | [B13549](https://acmicpc.net/problem/13549) | ☑️ | ❌ | ✅ | ✅ | ❌ | - |
-|  | [B14501](https://acmicpc.net/problem/14501) |  ✅ | ❌ | ✅ | ✅ | ❌|  |
-|  | [P42895](https://school.programmers.co.kr/learn/courses/30/lessons/42895) | ✅ | ❌ | ❔ | ❔ | ❌ |  |
-| Week 05</br>(22.05.22.) | [B21608](https://acmicpc.net/problem/21608) | ✅ | ❌ | ❔ | ✅ | ❌ | ❌  |
-|  | [P42840](https://school.programmers.co.kr/learn/courses/30/lessons/42840) | ✅ | ❌ | ✅ | ✅ | ✅ | ❌  |
+|  | [B14501](https://acmicpc.net/problem/14501) |  ✅ | ❌ | ✅ | ✅ | ❌| - |
+|  | [P42895](https://school.programmers.co.kr/learn/courses/30/lessons/42895) | ✅ | ❌ | ❔ | ❔ | ❌ | - |
+| Week 05</br>(22.05.22.) | [B21608](https://acmicpc.net/problem/21608) | ✅ | ❌ | ❔ | ✅ | ❌ | ✅  |
+|  | [P42840](https://school.programmers.co.kr/learn/courses/30/lessons/42840) | ✅ | ❌ | ✅ | ✅ | ✅ | ✅  |
 | Week 06</br>(22.05.29.) | [B2579](https://acmicpc.net/problem/2579) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌  |
 |  | [B1780](https://acmicpc.net/problem/1780) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌  |
 
