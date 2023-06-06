@@ -27,6 +27,9 @@
 |  | [P42840](https://school.programmers.co.kr/learn/courses/30/lessons/42840) | ✅ | ❌ | ✅ | ✅ | ✅ | ✅  | - |
 | Week 06</br>(22.05.29.) | [B2579](https://acmicpc.net/problem/2579) | ✅ | ❔ | ☑️ | ✅ | ❔ | ❌ | ❌ |
 |  | [B1780](https://acmicpc.net/problem/1780) | ✅ | ✅ | ✅ | ☑️ | ☑️ | ❌ | ❌ |
+| Week 07</br>(22.06.12.) | [B17281](https://acmicpc.net/problem/17281) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+|  | [B1932](https://acmicpc.net/problem/1932) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+|  | [P42577](https://school.programmers.co.kr/learn/courses/30/lessons/42577) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 
 
