@@ -14,7 +14,7 @@
 ## 📍 Progress Record
 |  | 문제 | 길민지 | 이우엽 | 윤상우 | 신선영 | 서지수 | 곽승규 | 김태선
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| GitHub | | [rninji](https://github.com/rninji) | [leewooyup](https://github.com/leewooyup) | [Awarduuu](https://github.com/Awarduuu) | [drsuneamer](https://github.com/drsuneamer) | [seojisoosoo](https://github.com/seojisoosoo) | [SeungGyu-Kwak](https://github.com/SeungGyu-Kwak) | [KimTaeseon](https://github.com/KimTaeseon)
+| GitHub | | [rninji](https://github.com/rninji) | [leewooyup](https://github.com/leewooyup) | [Awarduuu](https://github.com/Awarduuu) | [drsuneamer](https://github.com/drsuneamer) | [seojisoosoo](https://github.com/seojisoosoo) | [SeungGyu-Kwak](https://github.com/SeungGyu-Kwak) | [KimTaeseon](https://github.com/KiM-Taeseon)
 | Language | | <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"> | <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"> | <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"> | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> |
 | Week 01</br>(23.04.24.) |[B15686](https://www.acmicpc.net/problem/15686) | ✅ | ❔ | ✅ | ✅ | ✅ | - | - |
 |  |[B2559](https://www.acmicpc.net/problem/2559) | ✅ | ❌ | ✅ | ✅ | ✅ | - | - |
@@ -30,10 +30,10 @@
 | Week 05</br>(22.05.22.) | [B21608](https://acmicpc.net/problem/21608) | ✅ | ❌ | ❔ | ✅ | ❌ | ✅  | - |
 |  | [P42840](https://school.programmers.co.kr/learn/courses/30/lessons/42840) | ✅ | ❌ | ✅ | ✅ | ✅ | ✅  | - |
 | Week 06</br>(22.05.29.) | [B2579](https://acmicpc.net/problem/2579) | ✅ | ❔ | ☑️ | ✅ | ❔ | ❌ | ❌ |
-|  | [B1780](https://acmicpc.net/problem/1780) | ✅ | ✅ | ✅ | ☑️ | ☑️ | ❌ | ❌ |
-| Week 07</br>(22.06.12.) | [B17281](https://acmicpc.net/problem/17281) | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
-|  | [B1932](https://acmicpc.net/problem/1932) | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
-|  | [P42577](https://school.programmers.co.kr/learn/courses/30/lessons/42577) | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
+|  | [B1780](https://acmicpc.net/problem/1780) | ✅ | ✅ | ✅ | ☑️ |  | ❌ | ❌ |
+| Week 07</br>(22.06.12.) | [B17281](https://acmicpc.net/problem/17281) | ❌ | ❔ | ✅ | ☑️ | ❌ | ❌ | ❌ |
+|  | [B1932](https://acmicpc.net/problem/1932) | ❌ | ❔ | ✅ | ✅ | ❌ | ❌ | ❌ |
+|  | [P42577](https://school.programmers.co.kr/learn/courses/30/lessons/42577) | ❌ | ❔ | ✅ | ☑️ | ❌ | ❌ | ❌ |
 
 
 
