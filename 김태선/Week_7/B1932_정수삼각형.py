@@ -1,5 +1,4 @@
 from sys import stdin
-
 read = stdin.readline
 
 lst = []
