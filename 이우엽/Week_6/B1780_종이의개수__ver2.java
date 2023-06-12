@@ -9,18 +9,7 @@ public class B1780_종이의개수__ver2 {
 	static int cntM1;
 	static int cnt0;
 	static int cnt1;
-	public static boolean isPossible(int x, int y, int size) {
-		int value = arr2d[x][y];
-		
-		for(int i = x; i < x + size; i++) {
-			for(int j = y; j < y + size; j++) {
-				if(value != arr2d[i][j]) {
-					return false;
-				}
-			}
-		}
-		return true;
-	}
+
 	public static boolean checkValid(int x, int y, int size) {
 		int std = arr2d[x][y];
 		for(int i = x; i < x + size; i++) {
