@@ -34,9 +34,9 @@
 | Week 07</br>(22.06.12.) | [B17281](https://acmicpc.net/problem/17281) | ✅ | ❔ | ✅ | ☑️ | ❔ | ✅ | ✅ |
 |  | [B1932](https://acmicpc.net/problem/1932) | ✅ | ❔ | ✅ | ✅ | ✅  | ✅ | ✅ |
 |  | [P42577](https://school.programmers.co.kr/learn/courses/30/lessons/42577) | ☑️ | ❔ | ✅ | ☑️ | ✅ | ✅ | ☑️ |
-| Week 08</br>(22.06.19.) | [B2293](https://acmicpc.net/problem/2293) | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
-|  | [B2564](https://acmicpc.net/problem/2564) | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
-|  | [B9081](https://acmicpc.net/problem/9081) | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
+| Week 08</br>(22.06.19.) | [B2293](https://acmicpc.net/problem/2293) | ❌ | ❌ | ❌ | ❔ | ❌ | ✅ | ❌ |
+|  | [B2564](https://acmicpc.net/problem/2564) | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ | ❌ |
+|  | [B9081](https://acmicpc.net/problem/9081) | ❌ | ❌ | ❌ | ☑️ | ❌ | ✅ | ❌ |
 
 
 | 해결 여부 | 표기 |
