@@ -31,11 +31,8 @@ public class B9081_단어맞추기 {
                             break;
                         }
                     }
-                    char[] sort = Arrays.copyOfRange(word, i+1, word.length);
-                    Arrays.sort(sort); // 뒷부분 정렬
-                    System.arraycopy(sort, 0, word, i+1, word.length-1-i);
-                    String rs = new String(word);
-                    System.out.println(rs); // 출력
+                    Arrays.sort(word, i+1, word.length); // 뒷부분 정렬
+                    System.out.println(new String(word)); // 출력
                     break;
                 } else {
                     now = i;
