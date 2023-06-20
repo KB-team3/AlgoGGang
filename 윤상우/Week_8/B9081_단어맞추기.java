@@ -24,8 +24,8 @@ public class B9081_단어맞추기 {
         }
     }
 
-    public static void swap(int [] array, int i, int j){
-        int temp = array[j];
+    public static void swap(char [] array, int i, int j){
+        char temp = array[j];
         array[j] = array[i];
         array[i] = temp;
     }
@@ -33,40 +33,29 @@ public class B9081_단어맞추기 {
     public static void main(String[] args) throws IOException {
         init();
 
-        for(int i=0; i<n; i++){
-            String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-            StringBuilder sb = new StringBuilder();
-            int len = arr[i].length();
-            int [] num = new int [len];
+        for(String s: arr){
+            boolean isLast = true;
+            char [] word = s.toCharArray();
+            int len = word.length;
+            int now = word.length - 1;
 
-            for(int j=0; j<len; j++){
-                for(int k=0; k<26; k++){
-                    if(alphabet.charAt(k) == arr[i].charAt(j)){
-                        num[j] = k;
+            for(int i= len-2; i>=0; i--){
+                if(word[i] < word[now]){
+                    isLast = false;
+                    for(int j=len-1; j>i; j--){
+                        if(word[j] > word[i]){
+                            swap(word,i,j);
+                            break;
+                        }
                     }
+                    Arrays.sort(word, i+1, len);
+                    System.out.println(new String(word));
+                    break;
+                }else{
+                    now = i;
                 }
             }
-
-            for(int start=len-1; start>=0; start--){
-                boolean flag = false;
-
-                for(int j=start-1; j>=0; j--){
-                    if(num[j]<num[start]){
-                        swap(num, j, start);
-                        Arrays.sort(num, j+1, len);
-                        flag = true;
-                        break;
-                    }
-                }
-
-                if(flag) break;
-            }
-
-            for(int n : num){
-                sb.append(alphabet.charAt(n));
-            }
-
-            System.out.println(sb);
+            if(isLast) System.out.println(s);
         }
 
     }
