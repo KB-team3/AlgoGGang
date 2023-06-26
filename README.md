@@ -41,8 +41,8 @@
 |  | [P159993](https://school.programmers.co.kr/learn/courses/30/lessons/159993) | ✅ | ✅ | ✅ | ✅ | ☑️ | ❌ |  | - |
 |  | [P92341](https://school.programmers.co.kr/learn/courses/30/lessons/92341) | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | - |
 | Week 10</br>(22.07.03.) | [B13460](https://acmicpc.net/problem/13460) |  |  |  |  |  |  |  |
-|  | [P159993](https://acmicpc.net/problem/2212) |  |  |  |  |  |  |  |
-|  | [P92341](https://acmicpc.net/problem/11048) |  |  |  |  |  |  |  |
+|  | [B2212](https://acmicpc.net/problem/2212) |  |  |  |  |  |  |  |
+|  | [B11048](https://acmicpc.net/problem/11048) |  |  |  |  |  |  |  |
 
 
 | 해결 여부 | 표기 |
