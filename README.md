@@ -37,9 +37,9 @@
 | Week 08</br>(22.06.19.) | [B2293](https://acmicpc.net/problem/2293) | ☑️ | ✅ | ☑️ | ❔ | ❌ | ✅ | ☑️ | - |
 |  | [B2564](https://acmicpc.net/problem/2564) | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | - |
 |  | [B9081](https://acmicpc.net/problem/9081) | ☑️ | ❌ | ❔ | ☑️ | ❌ | ✅ | ☑️ | - |
-| Week 09</br>(22.06.26.) | [P150370](https://school.programmers.co.kr/learn/courses/30/lessons/150370) | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | - |
-|  | [P159993](https://school.programmers.co.kr/learn/courses/30/lessons/159993) | ✅ | ✅ | ✅ | ✅ | ☑️ | ❌ |  | - |
-|  | [P92341](https://school.programmers.co.kr/learn/courses/30/lessons/92341) | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | - |
+| Week 09</br>(22.06.26.) | [P150370](https://school.programmers.co.kr/learn/courses/30/lessons/150370) | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | - |
+|  | [P159993](https://school.programmers.co.kr/learn/courses/30/lessons/159993) | ✅ | ✅ | ✅ | ✅ | ☑️ | ❌ | ✅ | - |
+|  | [P92341](https://school.programmers.co.kr/learn/courses/30/lessons/92341) | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | - |
 | Week 10</br>(22.07.03.) | [B13460](https://acmicpc.net/problem/13460) |  |  |  |  |  |  |  |
 |  | [B2212](https://acmicpc.net/problem/2212) |  |  |  |  |  |  |  |
 |  | [B11048](https://acmicpc.net/problem/11048) |  |  |  |  |  |  |  |
