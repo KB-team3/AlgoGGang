@@ -14,13 +14,14 @@ def solution(orders, course) :
             # 문자열 조합을 temp에 저장
             temp += list(combi)
 
-        # 계산 라이브러리 함수(딕셔너리 형태로 분류해서 총 가짓수를 구해줌)
+        # 갯수 세어주는 라이브러리 함수(딕셔너리 형태로 분류해서 총 가짓수를 구해줌)
         counter = Counter(temp)
 
         # 길이가 0 이상이고 가장 큰 조합 갯수가 최소 2번 이상인 값만 구해줌
         if len(counter) != 0 and max(counter.values()) != 1 :
             for c_factor in counter : 
                 if counter[c_factor] == max(counter.values()) :
-                    answer.append(''.join(c_factor)) # join 써서 문자열로 변환
+                    # join 써서 문자열 리스트를 하나의 문자열로 결합
+                    answer.append(''.join(c_factor)) 
 
     return sorted(answer)
