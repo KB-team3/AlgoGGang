@@ -43,9 +43,9 @@
 | Week 10</br>(22.07.03.) | [B13460](https://acmicpc.net/problem/13460) | ❌ |  | ☑️ | ❔ | ❔ |  | ❔ |✅|
 |  | [B2212](https://acmicpc.net/problem/2212) | ✅ |  | ✅ |✅  | ☑️ |  | ☑️ |☑️|
 |  | [B11048](https://acmicpc.net/problem/11048) | ✅ |  | ✅ | ✅ | ✅ |  | ✅ |✅|
-| Week 11</br>(22.07.10.) | [P72411](https://school.programmers.co.kr/learn/courses/30/lessons/72411) | ☑️ |  |  |  |  |  |  |
-|  | [B1562](https://www.acmicpc.net/problem/1562) | ❔ |  |  |  |  |  |  |
-|  | [B12865](https://www.acmicpc.net/problem/12865) | ❔ |  |  |  |  |  |  |
+| Week 11</br>(22.07.10.) | [P72411](https://school.programmers.co.kr/learn/courses/30/lessons/72411) | ☑️ |  |  | ☑️ |  |  |  |
+|  | [B1562](https://www.acmicpc.net/problem/1562) | ❔ |  |  | ❔ |  |  |  |
+|  | [B12865](https://www.acmicpc.net/problem/12865) | ❔ |  |  | ❔ |  |  |  |
 
 
 
