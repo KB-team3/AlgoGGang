@@ -66,7 +66,6 @@
 Programmers : PRO  
 SW Expert Academy : SWEA  
 다른 문제 사이트는 ETC로 표기
-> 
 - PR제목 양식 : [week1] B문제번호_문제제목, P문제번호_문제제목
 - File 양식 : 이름 / week_N / B00000_문제제목 
 
