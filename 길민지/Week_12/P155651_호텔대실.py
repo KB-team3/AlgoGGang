@@ -1,7 +1,7 @@
 def solution(book_time):
     time = [0] * (24 * 60)
 
-    # 배열로 전환
+    # 분으로 전환
     book = []*len(book_time)
     for b in book_time:
         in_time = list(map(int, b[0].split(":")))
