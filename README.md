@@ -46,9 +46,9 @@
 | Week 11</br>(22.07.10.) | [P72411](https://school.programmers.co.kr/learn/courses/30/lessons/72411) | ☑️ |  | ✅ | ☑️ |  | ✅ | ✅ |✅
 |  | [B1562](https://www.acmicpc.net/problem/1562) | ❔ |  | ❔ | ❔ |  | ❔  | ☑️ |✅
 |  | [B12865](https://www.acmicpc.net/problem/12865) | ❔ |  | ☑️ | ❔ |  | ✅ | ❔ |☑️
-| Week 12</br>(22.07.17.) | [B1138](https://www.acmicpc.net/problem/1138) |  |  | ✅ | ✅ |  |  | ✅ |
-|  | [P118666](https://school.programmers.co.kr/learn/courses/30/lessons/118666) |  |  | ✅ | ✅ |  |  | ✅ |
-|  | [P155651](https://school.programmers.co.kr/learn/courses/30/lessons/155651) |  |  | ✅ | ✅ |  |  | ✅ |
+| Week 12</br>(22.07.17.) | [B1138](https://www.acmicpc.net/problem/1138) |  |  | ✅ | ✅ |  |  | ✅ |✅
+|  | [P118666](https://school.programmers.co.kr/learn/courses/30/lessons/118666) |  |  | ✅ | ✅ |  |  | ✅ |✅
+|  | [P155651](https://school.programmers.co.kr/learn/courses/30/lessons/155651) |  |  | ✅ | ✅ |  |  | ✅ |✅
 
 
 
