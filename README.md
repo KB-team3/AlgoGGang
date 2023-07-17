@@ -15,7 +15,7 @@
 |  | 문제 | 길민지 | 이우엽 | 윤상우 | 신선영 | 서지수 | 곽승규 | 김태선 | 김준서 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | GitHub | | [rninji](https://github.com/rninji) | [leewooyup](https://github.com/leewooyup) | [Awarduuu](https://github.com/Awarduuu) | [drsuneamer](https://github.com/drsuneamer) | [seojisoosoo](https://github.com/seojisoosoo) | [SeungGyu-Kwak](https://github.com/SeungGyu-Kwak) | [KimTaeseon](https://github.com/KiM-Taeseon) |[adoo24](https://github.com/adoo24)|
-| Language | | <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"> | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> | <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"> | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> |
+| Language | | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> |
 | Week 01</br>(23.04.24.) |[B15686](https://www.acmicpc.net/problem/15686) | ✅ | ✅ | ✅ | ✅ | ✅ | - | - | - |
 |  |[B2559](https://www.acmicpc.net/problem/2559) | ✅ | ✅ | ✅ | ✅ | ✅ | - | - | - |
 | Week 02</br>(22.05.01.) | [B17298](https://www.acmicpc.net/problem/17298) | ✅ | ✅ | ✅ | ✅ | ✅ | - | - | - |
@@ -49,7 +49,9 @@
 | Week 12</br>(22.07.17.) | [B1138](https://www.acmicpc.net/problem/1138) | ✅ |  | ✅ | ✅ |  |  | ✅ |✅
 |  | [P118666](https://school.programmers.co.kr/learn/courses/30/lessons/118666) | ✅ |  | ✅ | ✅ |  |  | ✅ |✅
 |  | [P155651](https://school.programmers.co.kr/learn/courses/30/lessons/155651) | ✅ |  | ✅ | ✅ |  |  | ✅ |✅
-
+| Week 13</br>(22.07.24.) | [B7576](https://www.acmicpc.net/problem/7576) |  |  |  |  |  |  |  |
+|  | [P42860](https://school.programmers.co.kr/learn/courses/30/lessons/42860) |  |  |  |  |  |  |  |
+|  | [P92334](https://school.programmers.co.kr/learn/courses/30/lessons/92334) |  |  |  |  |  |  |  |
 
 
 
