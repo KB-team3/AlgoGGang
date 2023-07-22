@@ -36,7 +36,7 @@ while q :
             graph[nx][ny] = graph[x][y] + 1
             q.append((nx, ny))
 
-# 결과값 출력 (??? 이 부분 이해안감)
+# 결과값 출력 (??? 출력값 안 나와서 답 봤는데도 이 부분은 이해안감)
 result = 0
 
 for i in range(n):
