@@ -1,3 +1,4 @@
+from collections import deque
 dx = [1,-1,0,0]
 dy = [0,0,1,-1]
 
@@ -7,7 +8,7 @@ box = [list(map(int, input().split())) for _ in range(N)]
 
 def solution():
   # 익은 토마토 체크
-  queue = []
+  queue = deque()
   cnt = 0
   for i in range(N):
     for j in range(M):
@@ -18,7 +19,7 @@ def solution():
   # BFS
   day = 0
   while(len(queue) != 0):
-    now = queue.pop(0)
+    now = queue.popleft()
     day = now[2]
     for i in range(4):
       next = [now[0]+dx[i], now[1]+dy[i], now[2]+1]
