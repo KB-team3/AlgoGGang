@@ -52,9 +52,9 @@
 | Week 13</br>(22.07.24.) | [B7576](https://www.acmicpc.net/problem/7576) | ☑️ |  | ✅ | ✅ |  |  | ☑️ |✅
 |  | [P42860](https://school.programmers.co.kr/learn/courses/30/lessons/42860) | ❔ |  | ❌ | ❔ |  |  | ❔ |✅
 |  | [P92334](https://school.programmers.co.kr/learn/courses/30/lessons/92334) | ✅ |  | ✅ | ✅ |  |  | ✅ |✅
-| Week 14</br>(22.07.31.) | [P43164](https://school.programmers.co.kr/learn/courses/30/lessons/43164) |  |  |  |  |  |  |  |
-|  | [P43238](https://school.programmers.co.kr/learn/courses/30/lessons/43238) |  |  |  |  |  |  |  |
-|  | [P84512](https://school.programmers.co.kr/learn/courses/30/lessons/84512) |  |  |  |  |  |  |  |
+| Week 14</br>(22.07.31.) | [P43164](https://school.programmers.co.kr/learn/courses/30/lessons/43164) |  |  |  | ✅ |  |  |  |
+|  | [P43238](https://school.programmers.co.kr/learn/courses/30/lessons/43238) |  |  |  | ☑️ |  |  |  |
+|  | [P84512](https://school.programmers.co.kr/learn/courses/30/lessons/84512) |  |  |  | ✅ |  |  |  |
 
 
 
