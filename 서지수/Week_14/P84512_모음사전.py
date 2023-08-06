@@ -1,4 +1,5 @@
 def solution(word):
+
     stack=["A"]
     next_word_alphabet={"A":"E", "E":"I","I":"O", "O":"U"}
     prev_word_alphabet=None
@@ -19,7 +20,7 @@ def solution(word):
             while prev_word_alphabet=="U":
                 prev_word_alphabet=stack.pop()
             
-#             다음 알파벳 추가
+        #다음 알파벳 추가
             stack.append(next_word_alphabet[prev_word_alphabet])
     
     return count

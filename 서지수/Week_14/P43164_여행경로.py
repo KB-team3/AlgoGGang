@@ -1,6 +1,4 @@
 def solution(tickets):
-    answer=[]
-    
     tickets.sort(key=lambda x:(x[0], x[1]))
     
     def dfs(ticket, path):
