@@ -41,20 +41,20 @@
 |  | [P159993](https://school.programmers.co.kr/learn/courses/30/lessons/159993) | ✅ | ✅ | ✅ | ✅ | ☑️ | ✅ | ✅ | - |
 |  | [P92341](https://school.programmers.co.kr/learn/courses/30/lessons/92341) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | - |
 | Week 10</br>(22.07.03.) | [B13460](https://acmicpc.net/problem/13460) | ❌ |  | ☑️ | ❔ | ❔ | ❌ | ❔ |✅|
-|  | [B2212](https://acmicpc.net/problem/2212) | ✅ |  | ✅ |✅  | ☑️ | ❌ | ☑️ |☑️|
-|  | [B11048](https://acmicpc.net/problem/11048) | ✅ |  | ✅ | ✅ | ✅ | ❌ | ✅ |✅|
+|  | [B2212](https://acmicpc.net/problem/2212) | ✅ | ✅ | ✅ |✅  | ☑️ | ❌ | ☑️ |☑️|
+|  | [B11048](https://acmicpc.net/problem/11048) | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ |✅|
 | Week 11</br>(22.07.10.) | [P72411](https://school.programmers.co.kr/learn/courses/30/lessons/72411) | ☑️ |  | ✅ | ☑️ |  | ✅ | ✅ |✅
-|  | [B1562](https://www.acmicpc.net/problem/1562) | ❔ |  | ❔ | ❔ |  | ❔  | ☑️ |✅
-|  | [B12865](https://www.acmicpc.net/problem/12865) | ❔ |  | ☑️ | ❔ |  | ✅ | ❔ |☑️
-| Week 12</br>(22.07.17.) | [B1138](https://www.acmicpc.net/problem/1138) | ✅ |  | ✅ | ✅ |  |  | ✅ |✅
-|  | [P118666](https://school.programmers.co.kr/learn/courses/30/lessons/118666) | ✅ |  | ✅ | ✅ |  |  | ✅ |✅
-|  | [P155651](https://school.programmers.co.kr/learn/courses/30/lessons/155651) | ✅ |  | ✅ | ✅ |  |  | ✅ |✅
-| Week 13</br>(22.07.24.) | [B7576](https://www.acmicpc.net/problem/7576) | ☑️ |  | ✅ | ✅ |  |  | ☑️ |✅
-|  | [P42860](https://school.programmers.co.kr/learn/courses/30/lessons/42860) | ❔ |  | ❌ | ❔ |  |  | ❔ |✅
-|  | [P92334](https://school.programmers.co.kr/learn/courses/30/lessons/92334) | ✅ |  | ✅ | ✅ |  |  | ✅ |✅
-| Week 14</br>(22.07.31.) | [P43164](https://school.programmers.co.kr/learn/courses/30/lessons/43164) |  |  |  | ✅ | ☑️ |  | ☑️ |
-|  | [P43238](https://school.programmers.co.kr/learn/courses/30/lessons/43238) |  |  |  | ☑️ | ☑️ |  | ✅ |
-|  | [P84512](https://school.programmers.co.kr/learn/courses/30/lessons/84512) |  |  |  | ✅ | ☑️ |  | ✅ |
+|  | [B1562](https://www.acmicpc.net/problem/1562) | ❔ | ✅ | ❔ | ❔ |  | ❔  | ☑️ |✅
+|  | [B12865](https://www.acmicpc.net/problem/12865) | ❔ | ✅ | ☑️ | ❔ |  | ✅ | ❔ |☑️
+| Week 12</br>(22.07.17.) | [B1138](https://www.acmicpc.net/problem/1138) | ✅ | ✅ | ✅ | ✅ |  |  | ✅ |✅
+|  | [P118666](https://school.programmers.co.kr/learn/courses/30/lessons/118666) | ✅ | ✅ | ✅ | ✅ |  |  | ✅ |✅
+|  | [P155651](https://school.programmers.co.kr/learn/courses/30/lessons/155651) | ✅ | ✅ | ✅ | ✅ |  |  | ✅ |✅
+| Week 13</br>(22.07.24.) | [B7576](https://www.acmicpc.net/problem/7576) | ☑️ | ❌ | ✅ | ✅ |  |  | ☑️ |✅
+|  | [P42860](https://school.programmers.co.kr/learn/courses/30/lessons/42860) | ❔ | ❌ | ❌ | ❔ |  |  | ❔ |✅
+|  | [P92334](https://school.programmers.co.kr/learn/courses/30/lessons/92334) | ✅ | ❌ | ✅ | ✅ |  |  | ✅ |✅
+| Week 14</br>(22.07.31.) | [P43164](https://school.programmers.co.kr/learn/courses/30/lessons/43164) |  | ❔ |  | ✅ | ☑️ |  | ☑️ |
+|  | [P43238](https://school.programmers.co.kr/learn/courses/30/lessons/43238) |  | ☑️ |  | ☑️ | ☑️ |  | ✅ |
+|  | [P84512](https://school.programmers.co.kr/learn/courses/30/lessons/84512) |  | ✅ |  | ✅ | ☑️ |  | ✅ |
 | Week 15</br>(22.08.14) | [P17683](https://school.programmers.co.kr/learn/courses/30/lessons/17683) |  |  |  |  |  |  |  |
 |  | [P77484](https://school.programmers.co.kr/learn/courses/30/lessons/77484) |  |  |  |  |  |  |  |
 |  | [P43165](https://school.programmers.co.kr/learn/courses/30/lessons/43165) |  |  |  |  |  |  |  |
