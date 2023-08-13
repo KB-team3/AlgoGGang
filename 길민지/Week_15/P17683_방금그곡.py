@@ -21,7 +21,7 @@ def solution(m, musicinfos):
         
         # 악보 치환 및 시간에 맞게 변경
         music = change(info[3])
-        music = music * (time // len(info[3]) + 1)
+        music = music * (time // len(music) + 1)
         title = info[2]
         list.append([time, title, music[0:time]])
     
