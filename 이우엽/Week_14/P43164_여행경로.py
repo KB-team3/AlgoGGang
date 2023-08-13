@@ -9,8 +9,8 @@ def dfs(k):
         print("cur", cur)
         answer.append(cur)
         return
-    # if v in val: 여기서 왜 에러가 나는지 모르겠다
-    #     print(v)
+    for v in val: 여기서 왜 에러가 나는지 모르겠다
+        print(v)
 def solution(tickets):
     for ticket in tickets:
         start = ticket[0]
