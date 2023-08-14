@@ -58,6 +58,9 @@
 | Week 15</br>(22.08.14) | [P17683](https://school.programmers.co.kr/learn/courses/30/lessons/17683) | ✅ | ❔ |  | ✅ |  |  | ☑️ |
 |  | [P77484](https://school.programmers.co.kr/learn/courses/30/lessons/77484) | ✅ | ✅ |  | ✅ |  |  | ✅ |
 |  | [P43165](https://school.programmers.co.kr/learn/courses/30/lessons/43165) | ✅ | ✅ |  | ✅ |  |  | ✅ |
+| Week 16</br>(22.08.21) | [P152996](https://school.programmers.co.kr/learn/courses/30/lessons/152996) |  |  |  |  |  |  |  |
+|  | [B2156](https://www.acmicpc.net/problem/2156) |  |  |  |  |  |  |  |
+|  | [L15](https://leetcode.com/problems/3sum/description/) |  |  |  |  |  |  |  |
 
 
 
