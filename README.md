@@ -55,12 +55,12 @@
 | Week 14</br>(23.07.31.) | [P43164](https://school.programmers.co.kr/learn/courses/30/lessons/43164) | ❌ | ❔ | ✅ | ✅ | ☑️ | ✅ | ☑️ |
 |  | [P43238](https://school.programmers.co.kr/learn/courses/30/lessons/43238) | ❌ | ☑️ | ✅ | ☑️ | ☑️ | ✅ | ✅ |
 |  | [P84512](https://school.programmers.co.kr/learn/courses/30/lessons/84512) | ❌ | ✅ | ✅ | ✅ | ☑️ | ✅| ✅ |
-| Week 15</br>(23.08.14) | [P17683](https://school.programmers.co.kr/learn/courses/30/lessons/17683) | ✅ | ❔ |  | ✅ |  | ❌ | ☑️ |
-|  | [P77484](https://school.programmers.co.kr/learn/courses/30/lessons/77484) | ✅ | ✅ |  | ✅ |  | ❌ | ✅ |
-|  | [P43165](https://school.programmers.co.kr/learn/courses/30/lessons/43165) | ✅ | ✅ |  | ✅ |  | ❌| ✅ |
-| Week 16</br>(23.08.21) | [P152996](https://school.programmers.co.kr/learn/courses/30/lessons/152996) |  |  |  | ☑️ |  | ✅ | ☑️ |
-|  | [B2156](https://www.acmicpc.net/problem/2156) |  |  |  | ☑️ |  | ✅ | ✅ |
-|  | [L15](https://leetcode.com/problems/3sum/description/) |  |  |  | ☑️ |  | ☑️ | ☑️ |
+| Week 15</br>(23.08.14) | [P17683](https://school.programmers.co.kr/learn/courses/30/lessons/17683) | ✅ | ❔ | ✅ | ✅ |  | ❌ | ☑️ |
+|  | [P77484](https://school.programmers.co.kr/learn/courses/30/lessons/77484) | ✅ | ✅ | ✅ | ✅ |  | ❌ | ✅ |
+|  | [P43165](https://school.programmers.co.kr/learn/courses/30/lessons/43165) | ✅ | ✅ | ✅ | ✅ |  | ❌| ✅ |
+| Week 16</br>(23.08.21) | [P152996](https://school.programmers.co.kr/learn/courses/30/lessons/152996) |  |  | ✅ | ☑️ |  | ✅ | ☑️ |
+|  | [B2156](https://www.acmicpc.net/problem/2156) |  |  | ✅ | ☑️ |  | ✅ | ✅ |
+|  | [L15](https://leetcode.com/problems/3sum/description/) |  |  | ✅ | ☑️ |  | ☑️ | ☑️ |
 | Week 17</br>(23.08.28) | [B9465](https://www.acmicpc.net/problem/9465) |  |  |  |  |  |  |  |
 |  | [P17677](https://school.programmers.co.kr/learn/courses/30/lessons/17677) |  |  |  |  |  |  |  |
 |  | [P154540](https://school.programmers.co.kr/learn/courses/30/lessons/154540) |  |  |  |  |  |  |  |
