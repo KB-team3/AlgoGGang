@@ -1,0 +1,24 @@
+n = int(input())
+
+list = [int(input()) for _ in range(n)]
+
+dp = [0]*n
+
+if n==1:
+    dp[0] = list[0]
+elif n==2:
+    dp[0] = list[0]
+    dp[1] = list[0]+list[1]
+elif n==3:
+    dp[0] = list[0]
+    dp[1] = list[0]+list[1]
+    dp[2] = max(dp[0]+list[2], dp[1], list[1]+list[2])
+else:
+    dp[0], dp[1] = list[0], list[0]+list[1]
+
+    dp[2] = max(dp[0]+list[2], dp[1], list[1]+list[2])
+
+    for i in range(3,n):
+        dp[i] = max(dp[i-1], dp[i-2]+list[i], dp[i-3]+list[i-1]+list[i])
+
+print(dp[n-1])

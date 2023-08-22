@@ -1,0 +1,19 @@
+from collections import defaultdict
+
+def solution(weights):
+    answer = 0
+
+    dict = defaultdict(float)
+    
+    # 각 무게가 상대방과 같은 무게를 가질 수 있는 모든 경우의 비율
+    ratio = [1/1, 1/2, 2/1, 2/3, 3/2, 3/4, 4/3]
+    
+    for w in weights:
+        for r in ratio:
+            # 모든 경우의 무게를 탐색
+            answer += dict[r * w]
+        # 지금 사람의 무게를 기록
+        dict[w] += 1
+
+
+    return int(answer)
