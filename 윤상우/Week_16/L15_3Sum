@@ -1,0 +1,47 @@
+# import itertools
+class Solution:
+    def threeSum(self, nums: List[int]) -> List[List[int]]:
+        
+        # 투포인터 풀이
+        nums.sort()
+        answer = []
+
+        for i in range(len(nums)-2):
+
+            # 동일 원소일 경우 넘어가기
+            if i > 0 and nums[i] == nums[i-1] :
+                continue
+            left, right = i+1, len(nums)-1
+            
+            while left < right :
+                sum = nums[i] + nums[left] + nums[right]
+                
+                if sum < 0 :
+                    left+=1
+                elif sum > 0 :
+                    right-=1
+                else :
+                    answer.append([nums[i], nums[left], nums[right]])
+                    # 동일 원소일 경우 넘어가기
+                    while left < right and nums[left] == nums[left+1] :
+                        left+=1
+                    while left < right and nums[right] == nums[right-1] :
+                        right-=1
+                    left+=1
+                    right-=1
+
+
+        # 조합으로 하면 메모리 초과;;
+        # comb = itertools.combinations(nums,3)
+        # answer = []
+        # for i in list(comb) :
+        #     if sum(i) == 0 :
+        #         temp = []
+        #         for j in range(3):
+        #             temp.append(i[j])
+        #             temp.sort()
+        #         if temp not in answer :
+        #             answer.append(temp)
+
+        return answer
+        
