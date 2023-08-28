@@ -61,9 +61,9 @@
 | Week 16</br>(23.08.21) | [P152996](https://school.programmers.co.kr/learn/courses/30/lessons/152996) |  |  | ✅ | ☑️ |  | ✅ | ☑️ |
 |  | [B2156](https://www.acmicpc.net/problem/2156) |  |  | ✅ | ☑️ |  | ✅ | ✅ |
 |  | [L15](https://leetcode.com/problems/3sum/description/) |  |  | ✅ | ☑️ |  | ☑️ | ☑️ |
-| Week 17</br>(23.08.28) | [B9465](https://www.acmicpc.net/problem/9465) |  |  |  | ✅ |  |  |  |
-|  | [P17677](https://school.programmers.co.kr/learn/courses/30/lessons/17677) |  |  |  | ☑️ |  |  |  |
-|  | [P154540](https://school.programmers.co.kr/learn/courses/30/lessons/154540) |  |  |  | ✅ |  |  |  |
+| Week 17</br>(23.08.28) | [B9465](https://www.acmicpc.net/problem/9465) | ✅ |  |  | ✅ |  |  |  |
+|  | [P17677](https://school.programmers.co.kr/learn/courses/30/lessons/17677) | ✅ |  |  | ☑️ |  |  |  |
+|  | [P154540](https://school.programmers.co.kr/learn/courses/30/lessons/154540) | ✅ |  |  | ✅ |  |  |  |
 
 
 
