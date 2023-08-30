@@ -12,7 +12,7 @@ def solution(stickers, n):
             dp[0][i] += max(dp[1][i-1], dp[1][i-2])
             dp[1][i] += max(dp[0][i-1], dp[0][i-2])
 
-        print(max(dp[0][n-1], dp[1][n-1]))
+    print(max(dp[0][n-1], dp[1][n-1]))
     
 t = int(input())
 
