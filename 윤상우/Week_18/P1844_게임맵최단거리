@@ -1,0 +1,42 @@
+from collections import deque
+
+def solution(maps):
+    flag = False
+    n = len(maps)
+    m = len(maps[0])
+    visited = [[False]*m for _ in range(n)]
+    dx, dy = (-1,1,0,0),(0,0,-1,1)
+    
+    def isValid(x,y):
+        if x<0 or x>=n or y<0 or y>=m :
+            return False
+        return True
+    
+    def bfs(x,y):
+        que = deque([(x,y)])
+        visited[x][y] = True
+        
+        while que:
+            cx, cy = que.popleft()
+            for i in range(4):
+                nx = cx + dx[i]
+                ny = cy + dy[i]
+                
+                if not isValid(nx,ny):
+                    continue
+                if visited[nx][ny]:
+                    continue
+                if maps[nx][ny] == 0:
+                    continue
+                    
+                maps[nx][ny] += maps[cx][cy]
+                que.append([nx,ny])
+                visited[nx][ny] = True
+                
+                if nx == n-1 and ny == m-1 :
+                    return maps[nx][ny]
+                
+        return -1
+        
+    return bfs(0,0)
+        
