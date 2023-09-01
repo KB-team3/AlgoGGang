@@ -1,0 +1,54 @@
+from collections import deque
+                
+def solution(maps):
+    answer = []
+    
+    dx = [-1,1,0,0]
+    dy = [0,0,-1,1]
+    
+    len_x = len(maps)
+    len_y = len(maps[0])
+    
+    visited=[[False] *len_y for _ in range(len_x)]
+            
+    def isValid(x,y):
+        if x<0 or x>=len_x or y<0 or y>=len_y:
+            return False
+        return True
+
+    def bfs(start):
+        que = deque()
+        sum = int(maps[start[0]][start[1]])
+        que.append(start)
+        visited[start[0]][start[1]] = True
+        while que :
+            x,y = que.popleft()
+            for i in range(4):
+                next_x = x + dx[i]
+                next_y = y + dy[i]
+                
+                if not isValid(next_x, next_y) :
+                    continue
+                if visited[next_x][next_y] :
+                    continue
+                if maps[next_x][next_y] == 'X':
+                    continue
+                
+                sum += int(maps[next_x][next_y])
+                visited[next_x][next_y] = True
+                que.append([next_x,next_y])
+
+        return sum
+    
+    for i in range(len_x) :
+        for j in range(len_y) :
+            if maps[i][j] == 'X' or visited[i][j]: 
+                continue
+            print('[',i,j,']')
+            answer.append(bfs([i,j]))
+    
+    if not answer:
+        return [-1]
+    else:
+        return sorted(answer)
+    

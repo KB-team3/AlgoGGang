@@ -1,0 +1,39 @@
+from collections import Counter
+
+def solution(str1, str2):
+    str1 = str1.upper()
+    str2 = str2.upper()
+    list1 = []
+    list2 = []
+    for i in range(len(str1)-1):
+        if str1[i:i+2].isalpha() :
+            list1.append(str1[i:i+2])
+    for i in range(len(str2)-1):
+        if str2[i:i+2].isalpha() :
+            list2.append(str2[i:i+2])
+    
+    # inter = list((Counter(list1) & Counter(list2)).elements())
+    # union = list((Counter(list1) | Counter(list2)).elements())
+    
+    temp = list1.copy()
+    union = list1.copy()
+    
+    for i in list2:
+        if i not in temp:
+            union.append(i)
+        else:
+            temp.remove(i)
+            
+    inter = []
+    
+    for i in list2:
+        if i in list1:
+            list1.remove(i)
+            inter.append(i)
+    
+    if len(union)==0:
+        return 65536
+    else:
+        return int(65536 * len(inter)/len(union))
+     
+    return answer
