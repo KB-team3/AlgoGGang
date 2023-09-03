@@ -64,9 +64,9 @@
 | Week 17</br>(23.08.28) | [B9465](https://www.acmicpc.net/problem/9465) | ✅ |  |  | ✅ |  |  |  |
 |  | [P17677](https://school.programmers.co.kr/learn/courses/30/lessons/17677) | ✅ |  |  | ☑️ |  |  |  |
 |  | [P154540](https://school.programmers.co.kr/learn/courses/30/lessons/154540) | ✅ |  |  | ✅ |  |  |  |
-| Week 18</br>(23.09.04) | [P1844](https://school.programmers.co.kr/learn/courses/30/lessons/1844) |  |  |  |  |  |  |  |
-|  | [B14499](https://www.acmicpc.net/problem/14499) |  |  |  |  |  |  |  |
-|  | [B1522](https://www.acmicpc.net/problem/1522) |  |  |  |  |  |  |  |
+| Week 18</br>(23.09.04) | [P1844](https://school.programmers.co.kr/learn/courses/30/lessons/1844) |  |  |  | ❔ |  |  |  |
+|  | [B14499](https://www.acmicpc.net/problem/14499) |  |  |  | ✅ |  |  |  |
+|  | [B1522](https://www.acmicpc.net/problem/1522) |  |  |  | ☑️ |  |  |  |
 
 
 
