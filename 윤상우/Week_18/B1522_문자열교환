@@ -1,0 +1,13 @@
+import sys
+input = sys.stdin.readline
+
+str = input().strip()
+
+num = str.count('a')
+ans=1001
+cur_str = str+str
+
+for i in range(len(str)):
+    temp_str = cur_str[i:i+num]
+    ans = min(ans,temp_str.count('b'))
+print(ans)
