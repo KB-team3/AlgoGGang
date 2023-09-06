@@ -1,4 +1,4 @@
-# 리팩토링 전
+# 리팩토링 후
 from itertools import product
 def solution(users, emoticons):
     sale = [40,30,20,10]
@@ -23,6 +23,7 @@ def solution(users, emoticons):
             
     return answer
 
+# 리팩토링 전
 # from itertools import product
 # def solution(users, emoticons):
 #     sale = [40,30,20,10]
