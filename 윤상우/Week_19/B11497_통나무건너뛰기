@@ -1,0 +1,36 @@
+import sys
+input = sys.stdin.readline
+
+T=int(input())
+
+for i in range(T):
+    n=int(input())
+    tree=list(map(int,input().split()))
+    # 결과를 담을 dp
+    dp=[0]*n
+    # 투포인터를 위한 변수들
+    j, start, end = 0, 0, n-1
+    answer=0
+    # 가장 작은 값들부터 접근하기 위해 오름차순 정렬
+    tree.sort()
+    
+    # 작은 값들을 양쪽에 계속 배치 시키기
+    while j<n:
+        num=tree[j]
+        if j%2==0:
+            dp[start]=num
+            start+=1
+        else:
+            dp[end]=num
+            end-=1
+        j+=1
+
+    # 인접한 차이가 가장 큰 값 = answer
+    for i in range(n):
+        if i==n-1:
+            answer = max(answer, abs(dp[i]-dp[0]))
+        else:
+            answer = max(answer, abs(dp[i]-dp[i+1]))
+    
+    print(answer)
+        
