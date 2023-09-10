@@ -67,9 +67,9 @@
 | Week 18</br>(23.09.04) | [P1844](https://school.programmers.co.kr/learn/courses/30/lessons/1844) |  |  | ✅ | ❔ |  |  |  |
 |  | [B14499](https://www.acmicpc.net/problem/14499) |  |  | ✅ | ✅ |  |  |  |
 |  | [B1522](https://www.acmicpc.net/problem/1522) |  |  | ☑️ | ☑️ |  |  |  |
-| Week 19</br>(23.09.11) | [P150368](https://school.programmers.co.kr/learn/courses/30/lessons/150368) |  |  | ✅ |  |  |  |  |
-|  | [B17144](https://www.acmicpc.net/problem/17144) |  |  | ✅ |  |  |  |  |
-|  | [B11497](https://www.acmicpc.net/problem/11497) |  |  | ✅ |  |  |  |  |
+| Week 19</br>(23.09.11) | [P150368](https://school.programmers.co.kr/learn/courses/30/lessons/150368) |  |  | ✅ | ✅ |  |  |  |
+|  | [B17144](https://www.acmicpc.net/problem/17144) |  |  | ✅ | ✅ |  |  |  |
+|  | [B11497](https://www.acmicpc.net/problem/11497) |  |  | ✅ | ✅ |  |  |  |
 
 
 | 해결 여부 | 표기 |
