@@ -1,0 +1,93 @@
+import sys
+input = sys.stdin.readline
+from collections import deque
+
+r,c,t = map(int, input().split())
+
+arr = [list(map(int, input().split())) for _ in range(r)]
+dx = [-1,1,0,0]
+dy = [0,0,-1,1]
+up = 0
+answer = 0
+
+def isValid(x,y):
+    if x<0 or x>=r or y<0 or y>=c :
+        return False
+    return True
+
+# 미세먼지가 확산됨을 표현한 함수
+def virus(cx,cy,temp):
+    if arr[cx][cy] not in [0,-1]:
+        count = 0
+        for i in range(4):
+            nx = cx + dx[i]
+            ny = cy + dy[i]
+
+            if not isValid(nx,ny) or arr[nx][ny] == -1:
+                continue
+
+            temp[nx][ny] += arr[cx][cy]//5
+            count+=1
+
+        temp[cx][cy] -= (arr[cx][cy]//5)*count
+
+# 공기청정기 위치 찾기
+for i in range(r):
+    if arr[i][0]==-1:
+        up = i
+        break
+
+# 공기청정을 표현한 함수
+def clean(up):
+    down = up+1
+
+    # 배열 미는 로직
+
+    # 공기청정기 위쪽
+    for i in range(up,0,-1):
+        arr[i][0] = arr[i-1][0]
+    for i in range(c-1):
+        arr[0][i] = arr[0][i+1]
+    for i in range(up):
+        arr[i][c-1] = arr[i+1][c-1]
+    for i in range(c-1,0,-1):
+        arr[up][i] = arr[up][i-1]
+
+    arr[up][0] = -1
+    arr[up][1] = 0
+
+    # 공기청정기 아래쪽
+    for i in range(down, r-1):
+        arr[i][0] = arr[i+1][0]
+    for i in range(c-1):
+        arr[r-1][i] = arr[r-1][i+1]
+    for i in range(r-1,down,-1):
+        arr[i][c-1] = arr[i-1][c-1]
+    for i in range(c-1,0,-1):
+        arr[down][i] = arr[down][i-1]
+    
+    arr[down][0] = -1
+    arr[down][1] = 0
+
+# t초간 시행
+for k in range(t):
+    # 동시에 확산됨을 표현하기 위해 변환되는 값만 저장하는 temp 배열 생성
+    temp = [[0]*c for _ in range(r)]
+    
+    # 바이러스 확산 
+    for i in range(r):
+        for j in range(c):
+            virus(i,j,temp)
+    # 확산 결과 반영
+    for i in range(r):
+        for j in range(c):
+            arr[i][j] += temp[i][j]
+   
+    # 공기 청정
+    clean(up)
+
+for i in range(r):
+    answer += sum(arr[i])
+
+# 공기청정기 -2 메꾸기 위해서
+print(answer+2)

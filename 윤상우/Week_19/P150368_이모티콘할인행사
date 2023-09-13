@@ -1,0 +1,51 @@
+# 리팩토링 후
+from itertools import product
+def solution(users, emoticons):
+    sale = [40,30,20,10]
+    num = len(users)
+    answer = [0, 0]
+    
+    choices = list(product(sale, repeat = len(emoticons)))
+    
+    for choice in choices:
+        plus, price = 0, 0
+        for rate, money in users:
+            temp_price = 0
+            for item_price, item_percent in zip(emoticons, choice):
+                if item_percent >= rate:
+                    temp_price+=item_price*(100-item_percent)*0.01
+            
+            if temp_price >= money:
+                plus+=1
+            else:
+                price+=temp_price
+        answer = max(answer, [plus, price])
+            
+    return answer
+
+# 리팩토링 전
+# from itertools import product
+# def solution(users, emoticons):
+#     sale = [40,30,20,10]
+#     num = len(users)
+#     answer = [0, 0]
+    
+#     choices = list(product(sale, repeat = len(emoticons)))
+
+#     for choice in choices:
+#         temp = [0]*num
+#         price, plus = 0, 0
+#         for i in range(num):
+#             for j in range(len(choice)) :
+#                 if choice[j] >= users[i][0]:
+#                     temp[i]+=int(emoticons[j]//100*(100-choice[j]))
+        
+#         for i in range(len(temp)):
+#             if temp[i] >= users[i][1] :
+#                 plus+=1
+#             else :
+#                 price+=temp[i]
+        
+#         answer = max(answer, [plus, price])
+            
+#     return answer
