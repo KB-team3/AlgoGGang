@@ -1,0 +1,33 @@
+import java.util.*;
+
+class Solution {
+    public int[] solution(String[] operations) {
+        PriorityQueue<Integer> queLowest = new PriorityQueue<>();
+        PriorityQueue<Integer> queHighest = new PriorityQueue<>(Collections.reverseOrder());
+
+        for(String operation : operations){
+            
+            if(operation.charAt(0)=='I'){
+                int i = Integer.parseInt(operation.substring(2));
+                queLowest.offer(i);
+                queHighest.offer(i);
+                continue;
+            }
+            if(queLowest.isEmpty()) continue;
+            
+            if(operation.equals("D 1")){
+                int max = queHighest.poll();
+                queLowest.remove(max);
+            }else{
+                int min = queLowest.poll();
+                queHighest.remove(min);
+            }
+        }
+        
+        if(queLowest.isEmpty()){
+            return new int[]{0,0};
+        }
+        
+        return new int[]{queHighest.poll(),queLowest.poll()};
+    }
+}
