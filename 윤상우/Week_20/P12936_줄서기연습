@@ -1,0 +1,47 @@
+import java.util.*;
+
+class Solution {
+	
+    public int[] solution(int n, long k) {
+        int[] answer = new int[n];
+        List<Integer> list = new ArrayList<>();
+        
+        for(int i=1; i<n+1; i++){
+            list.add(i);
+        }
+        
+        int s = 0;
+        // t는 지금 자리수 뒤에 남아있는 자리 수
+        long t = n-1;
+        
+        while(t>0){
+            long temp=t;
+            // temp = (n-1)!
+            for(long i=temp-1; i>0; i--){
+                temp *= i;
+            }
+            
+            // (n-1)! 만큼 몇바퀴 돌았나 = x, 나머지 = y
+            int x = Long.valueOf(k/temp).intValue(); long y = k%temp;
+            // 나머지가 0인경우, 뒤는 내림차순 정렬되어 있을것이므로 반복문 빠져나오기
+            if(y==0){
+                answer[s] = list.remove(x-1);
+                for(int i=s+1; i<n; i++){
+                    answer[i] = list.remove(n-1-i);
+                }
+                break;
+            // 나머지가 0이 아닌경우, 뒤에 올 수를 정해주고, k를 나머지로 갱신
+            }else{
+                answer[s] = list.remove(x);
+                k=y;
+            }
+            // 다음 자리수
+            s++;
+            // 남은 자리수
+            t--;
+        }
+        
+        
+        return answer;
+    }
+}
