@@ -70,6 +70,9 @@
 | Week 19</br>(23.09.11) | [P150368](https://school.programmers.co.kr/learn/courses/30/lessons/150368) |  |  | ✅ | ✅ |  |  |  |
 |  | [B17144](https://www.acmicpc.net/problem/17144) |  |  | ✅ | ✅ |  |  |  |
 |  | [B11497](https://www.acmicpc.net/problem/11497) |  |  | ✅ | ✅ |  |  |  |
+| Week 20</br>(23.09.18) | [B16236](https://www.acmicpc.net/problem/16236) |  |  |  |  |  |  |  |
+|  | [P12936](https://school.programmers.co.kr/learn/courses/30/lessons/12936) |  |  |  |  |  |  |  |
+|  | [P42628](https://school.programmers.co.kr/learn/courses/30/lessons/42628) |  |  |  |  |  |  |  |
 
 
 | 해결 여부 | 표기 |
