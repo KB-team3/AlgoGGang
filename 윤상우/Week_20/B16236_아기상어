@@ -1,0 +1,76 @@
+import sys
+from collections import deque
+input = sys.stdin.readline
+
+# 초기값 세팅
+N = int(input())
+arr = [list(map(int,input().split())) for _ in range(N)]
+dx, dy = [-1,1,0,0], [0,0,-1,1]
+kg = 2
+answer=0
+eat=0
+x,y=0,0
+baby = []
+
+# 아기상어 위치 찾기 + 아기상어가 있던 위치도 길 뚫어주기
+for i in range(N):
+    for j in range(N):
+        if arr[i][j]==9:
+            x,y = i,j
+            arr[i][j]=0
+
+# 아기상어가 먹을 수 있는 물고기들의 위치와 거리를 담는 temp 배열 생성 함수
+def bfs(x,y):
+    temp=[]
+    visited = [[0]*N for _ in range(N)]
+
+    que = deque([(x,y)])
+    while que:
+        cx,cy = que.popleft()
+    
+        for i in range(4):
+            nx = cx+dx[i]
+            ny = cy+dy[i]
+
+            # 배열 범위 넘어가는 경우 못감
+            if nx<0 or nx>=N or ny<0 or ny>=N:
+                continue
+            # 자신보다 큰 경우 못감
+            if arr[nx][ny]>kg:
+                continue
+            # 이미 지나간 경우 못감(최단거리)
+            if visited[nx][ny]>0:
+                continue
+            
+            # 이동가능하면 거리 계산
+            visited[nx][ny]=visited[cx][cy]+1
+            
+            # 물고기가 아기상어보다 가벼우면 temp배열에 넣기
+            if 0 < arr[nx][ny] < kg :
+                temp.append([visited[nx][ny],nx,ny])
+
+            que.append([nx,ny])
+    return temp
+    
+while 1:
+    temp=bfs(x,y)
+    # temp가 없다는 뜻은 먹을수 있는 물고기가 없다는 뜻이니 반복문 빠져나오기
+    if not temp:
+        break
+    
+    # 거리, x축, y축 순으로 정렬 
+    temp.sort()
+    dist, x, y = temp[0]
+    # 정답 갱신
+    answer+=dist
+    # 먹은 물고기 자리 = 0
+    arr[x][y]=0
+    # 현재 먹은 물고기 개수 갱신
+    eat+=1
+
+    # 아기상어 몸무게 갱신
+    if kg==eat:
+        kg+=1
+        eat=0
+    
+print(answer)
