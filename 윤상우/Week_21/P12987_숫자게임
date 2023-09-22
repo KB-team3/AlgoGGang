@@ -1,0 +1,14 @@
+def solution(A, B):
+    length = len(B)
+    A.sort()
+    B.sort()
+    i=0
+    while(i<length):
+        if A[i] >= B[i]:
+            A.pop(-1)
+            B.pop(i)
+            length -=1
+            i-=1
+        i+=1
+        
+    return len(A)
