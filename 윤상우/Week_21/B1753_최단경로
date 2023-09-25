@@ -10,7 +10,7 @@ def go(start):
     #q가 비어있지 않다면
     while que:
         #가장 최단 거리인 노드에 대한 정보 꺼내기
-        dist, now = heapq.heappop(que)
+        dist,now = heapq.heappop(que)
         #현재 노드가 이미 처리됐다면 skip
         if distances[now] < dist:
             continue
@@ -20,7 +20,7 @@ def go(start):
             #현재 노드를 거치이동 거리가 더 짧은 경우
             if cost < distances[next]:
                 distances[next] = cost
-                heapq.heappush(que, (cost, next))
+                heapq.heappush(que, (next, cost))
 
 INF = int(1e9)
 V, E = map(int, input().split())
