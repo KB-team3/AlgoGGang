@@ -73,9 +73,9 @@
 | Week 20</br>(23.09.18) | [B16236](https://www.acmicpc.net/problem/16236) |  |  |  | ☑️ |  |  |  |
 |  | [P12936](https://school.programmers.co.kr/learn/courses/30/lessons/12936) |  |  |  | ❔ |  |  |  |
 |  | [P42628](https://school.programmers.co.kr/learn/courses/30/lessons/42628) |  |  |  | ☑️ |  |  |  |
-| Week 21</br>(23.09.25) | [P12987](https://school.programmers.co.kr/learn/courses/30/lessons/12987) |  |  |  |  |  |  |  |
-|  | [P87946](https://school.programmers.co.kr/learn/courses/30/lessons/87946) |  |  |  |  |  |  |  |
-|  | [B1753](https://www.acmicpc.net/problem/1753) |  |  |  |  |  |  |  |
+| Week 21</br>(23.09.25) | [P12987](https://school.programmers.co.kr/learn/courses/30/lessons/12987) |  |  | ✅ |  |  |  |  |
+|  | [P87946](https://school.programmers.co.kr/learn/courses/30/lessons/87946) |  |  | ✅ |  |  |  |  |
+|  | [B1753](https://www.acmicpc.net/problem/1753) |  |  | ☑️ |  |  |  |  |
 
 
 | 해결 여부 | 표기 |
