@@ -11,30 +11,30 @@ dy=(0,1,0,-1)
 answer = 1
 map[r][c]=2
 
-que=deque([(r,c,d)])
-while(que):
-    now_r, now_c, now_d=que.popleft()
+while(1):
     flag=True
-    for i in range(now_d-1,now_d-5,-1):
-        if i<0 : i+=4
-        next_r=now_r+dx[i]
-        next_c=now_c+dy[i]
+    for _ in range(4):
+        d = (d+3) % 4
+        next_r=r+dx[d]
+        next_c=c+dy[d]
         if(next_r<0 or next_r>=N or next_c<0 or next_c>=M) : continue
         if(map[next_r][next_c]==0):
             map[next_r][next_c]=2
             answer+=1
-            que.append([next_r, next_c, i])
+            r=next_r
+            c=next_c
             flag=False
             break
     
     if(flag):
-        back_d = now_d+2
+        back_d = d+2
         if back_d>=4: back_d-=4
 
-        back_r=now_r+dx[back_d]
-        back_c=now_c+dy[back_d]
+        back_r=r+dx[back_d]
+        back_c=c+dy[back_d]
 
         if(map[back_r][back_c]==1): break
-        que.append([back_r, back_c, now_d])
+        r=back_r
+        c=back_c
 
 print(answer)
