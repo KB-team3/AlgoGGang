@@ -1,0 +1,58 @@
+import java.util.*;
+class Solution {
+    static int [] parent;
+    static int len;
+    
+    public void union(int n1, int n2){
+        n1 = find(n1);
+        n2 = find(n2);
+        
+        if(n1 != n2){
+            if(n1 < n2){
+                for(int i=0; i<len; i++){
+                    if(parent[i]==n2){
+                        parent[i]=n1;
+                    }
+                }
+            }
+            else{
+                for(int i=0; i<len; i++){
+                    if(parent[i]==n1){
+                        parent[i]=n2;
+                    }
+                }
+            }
+        }
+    }
+    
+    public int find(int n){
+        if(parent[n]==n) return n;
+        return parent[n] = find(parent[n]);
+    }
+    
+    public int solution(int n, int[][] computers) {
+        int answer = 0;
+        parent = new int [n];
+        len = computers.length;
+        
+        for(int i=0; i<len; i++){
+            parent[i] = i;
+        }
+        
+        for(int i=0; i<len; i++){
+            for(int j=0; j<len; j++){
+                if(i==j) continue;
+                if(computers[i][j]==1){
+                    union(i,j);
+                }    
+            }
+        }
+        
+        HashSet<Integer> set = new HashSet<>();
+        for(int p : parent) set.add(p);
+        
+        answer = set.size();
+        
+        return answer;
+    }
+}
