@@ -1,0 +1,63 @@
+import java.util.*;
+class Solution {
+    
+    public static void djaikstra(){
+        int start = 1;
+        distance[1] = 0;
+        Queue<int []> que = new PriorityQueue<>(Comparator.comparingInt(arr -> arr[0]));
+        
+        que.add(new int[]{0, 1});
+        
+        while(!que.isEmpty()){
+            int [] now = que.poll();
+            int now_dist = now[0];
+            int now_node = now[1];
+            
+            if(now_dist > distance[now_node]) continue;
+            
+            for(int next_node : graph[now_node]){
+                int cost = now_dist + 1;
+                if(cost < distance[next_node]) {
+                    distance[next_node] = cost;
+                    que.add(new int[]{cost, next_node});
+                }
+            }
+            
+        }
+    }
+    
+    public static List<Integer>[] graph;
+    public static int [] distance;
+    
+    public int solution(int n, int[][] edge) {
+        int answer = 0;
+        int max_v = 0;
+        int max = Integer.MAX_VALUE;
+        graph = new List [n+1];
+        distance = new int [n+1];
+        
+        
+        for(int i=0; i<n+1; i++){
+            graph[i] = new ArrayList<>();
+            distance[i] = max;
+        }
+        
+        for(int [] e : edge){
+            graph[e[0]].add(e[1]);
+            graph[e[1]].add(e[0]);
+        }
+        
+        djaikstra();        
+        
+        for(int d : distance){
+            if(d == max) continue;
+            if(max_v < d) max_v = d;
+        }
+        
+        for(int d : distance){
+            if(d == max_v) answer++;
+        }
+        
+        return answer;
+    }
+}
