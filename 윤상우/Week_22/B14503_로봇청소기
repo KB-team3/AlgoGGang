@@ -1,0 +1,40 @@
+import sys
+from collections import deque
+input=sys.stdin.readline
+
+N,M=map(int, input().split())
+r,c,d=map(int, input().split())
+map=[list(map(int, input().split())) for _ in range(N)]
+
+dx=(-1,0,1,0)
+dy=(0,1,0,-1)
+answer = 1
+map[r][c]=2
+
+while(1):
+    flag=True
+    for _ in range(4):
+        d = (d+3) % 4
+        next_r=r+dx[d]
+        next_c=c+dy[d]
+        if(next_r<0 or next_r>=N or next_c<0 or next_c>=M) : continue
+        if(map[next_r][next_c]==0):
+            map[next_r][next_c]=2
+            answer+=1
+            r=next_r
+            c=next_c
+            flag=False
+            break
+    
+    if(flag):
+        back_d = d+2
+        if back_d>=4: back_d-=4
+
+        back_r=r+dx[back_d]
+        back_c=c+dy[back_d]
+
+        if(map[back_r][back_c]==1): break
+        r=back_r
+        c=back_c
+
+print(answer)
