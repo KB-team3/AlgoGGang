@@ -79,9 +79,9 @@
 | Week 22</br>(23.10.09) | [P49189](https://school.programmers.co.kr/learn/courses/30/lessons/49189) | ✅ |  | ✅ | ❌ |  |  |  |
 |  | [P43162](https://school.programmers.co.kr/learn/courses/30/lessons/43162) | ✅ |  | ✅ | ❌ |  |  |  |
 |  | [B14503](https://www.acmicpc.net/problem/14503) | ✅ |  | ✅ | ❌ |  |  |  |
-| Week 23</br>(23.10.16) | [B15683](https://www.acmicpc.net/problem/15683) |  |  |  | ❔ |  |  |  |
-|  | [B1976](https://www.acmicpc.net/problem/1976) |  |  |  | ☑️ |  |  |  |
-|  | [P42584](https://school.programmers.co.kr/learn/courses/30/lessons/42584) |  |  |  | ✅ |  |  |  |
+| Week 23</br>(23.10.16) | [B15683](https://www.acmicpc.net/problem/15683) | ✅ |  |  | ❔ |  |  |  |
+|  | [B1976](https://www.acmicpc.net/problem/1976) | ✅ |  |  | ☑️ |  |  |  |
+|  | [P42584](https://school.programmers.co.kr/learn/courses/30/lessons/42584) | ✅ |  |  | ✅ |  |  |  |
 
 
 | 해결 여부 | 표기 |
