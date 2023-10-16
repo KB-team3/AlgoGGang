@@ -1,0 +1,23 @@
+from collections import deque
+
+def solution(prices):
+    answer=[]
+    que=deque()
+        
+    for price in prices:
+        que.append(price)
+    
+    # 두가지 작업으로 최악의 시간 복잡도는 O(n^2)와 O(n) 사이로 줄어든다.
+    while(que):
+        # 1. 큐를 사용하며 현재 단계를 pop해주기 때문에 탐색할 큐의 길이가 줄어든다.
+        now=que.popleft()
+        day=0
+        
+        for price in que:
+            day+=1
+            # 2. 현재 단계값보다 작은 값을 발견할 경우 바로 반복문을 나가주기 때문에 시간복잡도가 줄어든다.
+            if now>price:
+                break
+        answer.append(day)
+    
+    return answer
