@@ -82,6 +82,10 @@
 | Week 23</br>(23.10.16) | [B15683](https://www.acmicpc.net/problem/15683) | ✅ |  |  | ❔ |  |  |  |
 |  | [B1976](https://www.acmicpc.net/problem/1976) | ✅ |  |  | ☑️ |  |  |  |
 |  | [P42584](https://school.programmers.co.kr/learn/courses/30/lessons/42584) | ✅ |  |  | ✅ |  |  |  |
+| Week 24</br>(23.10.23) | [B2239](https://www.acmicpc.net/problem/2239) |  |  |  |  |  |  |  |
+|  | [B2225](https://www.acmicpc.net/problem/2225) |  |  |  |  |  |  |  |
+|  | [P72412](https://school.programmers.co.kr/learn/courses/30/lessons/72412) |  |  |  |  |  |  |  |
+
 
 
 | 해결 여부 | 표기 |
