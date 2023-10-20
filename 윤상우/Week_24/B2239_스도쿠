@@ -1,0 +1,54 @@
+arr = [[] for _ in range(9)]
+location=[]
+for i in range(9):
+    str=input()
+    for j in range(9):
+        now=int(str[j])
+        arr[i].append(now)
+        if now==0:
+            location.append([i,j])
+
+N=len(location)
+
+def make_box(n):
+    if n<3:
+        return [0,3]
+    elif n<6:
+        return [3,6]
+    elif n<9:
+        return [6,9]
+
+def go(depth, arr):
+
+    if depth==N:
+        for i in range(9):
+            print(*arr[i], sep="")
+        exit(0)
+    
+    now_x, now_y = location[depth]
+
+    box_x1,box_x2=make_box(now_x)
+    box_y1,box_y2=make_box(now_y)
+
+    check=[False]*10
+
+    for i in arr[now_x]:
+        if i!=0:
+            check[i]=True
+
+    for i in range(9):
+        if arr[i][now_y]!=0:
+            check[arr[i][now_y]]=True
+
+    for i in range(box_x1,box_x2):
+        for j in range(box_y1,box_y2):
+            if arr[i][j]!=0:
+                check[arr[i][j]]=True
+
+    for i in range(1,10):
+        if not check[i]:
+            arr[now_x][now_y]=i
+            go(depth+1, arr)
+            arr[now_x][now_y]=0
+        
+go(0,arr)
