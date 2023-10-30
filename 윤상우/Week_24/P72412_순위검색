@@ -1,0 +1,54 @@
+def solution(info, query):
+    answer = []
+
+    search_table = {}
+    for l in ["cpp", "java", "python", "-"]:
+        for o in ["backend", "frontend", "-"]:
+            for j in ["junior", "senior", "-"]:
+                for f in ["chicken", "pizza", "-"]:
+                    search_table[l + o + j + f] = []
+
+    for inf in info:
+        언어, 직군, 경력, 소울푸드, 점수 = inf.split(" ")
+        search_table[언어 + 직군 + 경력 + 소울푸드].append(int(점수))
+        search_table["-" + 직군 + 경력 + 소울푸드].append(int(점수))
+        search_table[언어 + "-" + 경력 + 소울푸드].append(int(점수))
+        search_table[언어 + 직군 + "-" + 소울푸드].append(int(점수))
+        search_table[언어 + 직군 + 경력 + "-"].append(int(점수))
+
+        search_table["-" + "-" + 경력 + 소울푸드].append(int(점수))
+        search_table["-" + 직군 + "-" + 소울푸드].append(int(점수))
+        search_table["-" + 직군 + 경력 + "-"].append(int(점수))
+        search_table[언어 + "-" + "-" + 소울푸드].append(int(점수))
+        search_table[언어 + "-" + 경력 + "-"].append(int(점수))
+        search_table[언어 + 직군 + "-" + "-"].append(int(점수))
+
+        search_table[언어 + "-" + "-" + "-"].append(int(점수))
+        search_table["-" + 직군 + "-" + "-"].append(int(점수))
+        search_table["-" + "-" + 경력 + "-"].append(int(점수))
+        search_table["-" + "-" + "-" + 소울푸드].append(int(점수))
+
+        search_table["-" + "-" + "-" + "-"].append(int(점수))
+
+    for arr in search_table.values():
+        arr.sort()
+
+    def lower_bound(nums, target):
+        left, right = 0, len(nums)
+        while left < right:
+            mid = left + (right - left) // 2
+            if nums[mid] < target:
+                left = mid + 1
+            else:
+                right = mid
+        return len(nums) - right
+
+    for q in query:
+        언어, 직군, 경력, 소울푸드_점수 = q.split(" and ")
+        소울푸드, 점수 = 소울푸드_점수.split(" ")
+        key = 언어.strip() + 직군.strip() + 경력.strip() + 소울푸드.strip()
+        arr = search_table[key]
+        cnt = lower_bound(arr, int(점수))
+        answer.append(cnt)
+
+    return answer
