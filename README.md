@@ -61,21 +61,21 @@
 | Week 16</br>(23.08.21) | [P152996](https://school.programmers.co.kr/learn/courses/30/lessons/152996) | ❔ |  | ✅ | ☑️ |  | ✅ | ☑️ |
 |  | [B2156](https://www.acmicpc.net/problem/2156) | ✅ |  | ✅ | ☑️ |  | ✅ | ✅ |
 |  | [L15](https://leetcode.com/problems/3sum/description/) | ❔ |  | ✅ | ☑️ |  | ☑️ | ☑️ |
-| Week 17</br>(23.08.28) | [B9465](https://www.acmicpc.net/problem/9465) | ✅ |  | ✅ | ✅ |  |  |  |
-|  | [P17677](https://school.programmers.co.kr/learn/courses/30/lessons/17677) | ✅ |  | ✅ | ☑️ |  |  |  |
-|  | [P154540](https://school.programmers.co.kr/learn/courses/30/lessons/154540) | ✅ |  | ✅ | ✅ |  |  |  |
-| Week 18</br>(23.09.04) | [P1844](https://school.programmers.co.kr/learn/courses/30/lessons/1844) | ❌ |  | ✅ | ❔ |  |  |  |
-|  | [B14499](https://www.acmicpc.net/problem/14499) | ❌ |  | ✅ | ✅ |  |  |  |
-|  | [B1522](https://www.acmicpc.net/problem/1522) | ❌ |  | ☑️ | ☑️ |  |  |  |
-| Week 19</br>(23.09.11) | [P150368](https://school.programmers.co.kr/learn/courses/30/lessons/150368) | ❌ |  | ✅ | ✅ |  |  |  |
-|  | [B17144](https://www.acmicpc.net/problem/17144) | ❌ |  | ✅ | ✅ |  |  |  |
-|  | [B11497](https://www.acmicpc.net/problem/11497) | ❌ |  | ✅ | ✅ |  |  |  |
-| Week 20</br>(23.09.18) | [B16236](https://www.acmicpc.net/problem/16236) | ❌ |  | ✅ | ☑️ |  |  |  |
-|  | [P12936](https://school.programmers.co.kr/learn/courses/30/lessons/12936) | ❌ |  | ✅ | ❔ |  |  |  |
-|  | [P42628](https://school.programmers.co.kr/learn/courses/30/lessons/42628) | ❌ |  | ✅ | ☑️ |  |  |  |
-| Week 21</br>(23.09.25) | [P12987](https://school.programmers.co.kr/learn/courses/30/lessons/12987) | ✅ |  | ✅ | ☑️ |  |  |  |
-|  | [P87946](https://school.programmers.co.kr/learn/courses/30/lessons/87946) | ✅ |  | ✅ | ✅ |  |  |  |
-|  | [B1753](https://www.acmicpc.net/problem/1753) | ☑️ |  | ☑️ | ❔ |  |  |  |
+| Week 17</br>(23.08.28) | [B9465](https://www.acmicpc.net/problem/9465) | ✅ |  | ✅ | ✅ |  |  | ✅ |
+|  | [P17677](https://school.programmers.co.kr/learn/courses/30/lessons/17677) | ✅ |  | ✅ | ☑️ |  |  | ✅ |
+|  | [P154540](https://school.programmers.co.kr/learn/courses/30/lessons/154540) | ✅ |  | ✅ | ✅ |  |  | ✅ |
+| Week 18</br>(23.09.04) | [P1844](https://school.programmers.co.kr/learn/courses/30/lessons/1844) | ❌ |  | ✅ | ❔ |  |  | ✅ |
+|  | [B14499](https://www.acmicpc.net/problem/14499) | ❌ |  | ✅ | ✅ |  |  | ✅ |
+|  | [B1522](https://www.acmicpc.net/problem/1522) | ❌ |  | ☑️ | ☑️ |  |  | ✅ |
+| Week 19</br>(23.09.11) | [P150368](https://school.programmers.co.kr/learn/courses/30/lessons/150368) | ❌ |  | ✅ | ✅ |  |  | ✅ |
+|  | [B17144](https://www.acmicpc.net/problem/17144) | ❌ |  | ✅ | ✅ |  |  | ✅ |
+|  | [B11497](https://www.acmicpc.net/problem/11497) | ❌ |  | ✅ | ✅ |  |  | ✅ |
+| Week 20</br>(23.09.18) | [B16236](https://www.acmicpc.net/problem/16236) | ❌ |  | ✅ | ☑️ |  |  | ✅ |
+|  | [P12936](https://school.programmers.co.kr/learn/courses/30/lessons/12936) | ❌ |  | ✅ | ❔ |  |  | ✅ |
+|  | [P42628](https://school.programmers.co.kr/learn/courses/30/lessons/42628) | ❌ |  | ✅ | ☑️ |  |  | ✅ |
+| Week 21</br>(23.09.25) | [P12987](https://school.programmers.co.kr/learn/courses/30/lessons/12987) | ✅ |  | ✅ | ☑️ |  |  | ✅ |
+|  | [P87946](https://school.programmers.co.kr/learn/courses/30/lessons/87946) | ✅ |  | ✅ | ✅ |  |  | ✅ |
+|  | [B1753](https://www.acmicpc.net/problem/1753) | ☑️ |  | ☑️ | ❔ |  |  | ✅ |
 | Week 22</br>(23.10.09) | [P49189](https://school.programmers.co.kr/learn/courses/30/lessons/49189) | ✅ |  | ✅ | ❌ |  |  |  |
 |  | [P43162](https://school.programmers.co.kr/learn/courses/30/lessons/43162) | ✅ |  | ✅ | ❌ |  |  |  |
 |  | [B14503](https://www.acmicpc.net/problem/14503) | ✅ |  | ✅ | ❌ |  |  |  |
